@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { data } from "../../JsonData";
 import ProductCard from "../ProductCard/ProductCard";
 const Furniture = () => {
-    const [productData, setProductData] = useState(data);
+    const [productData] = useState(data);
   return (
     <div className=" container">
       <div >

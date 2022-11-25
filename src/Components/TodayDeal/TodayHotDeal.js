@@ -3,7 +3,7 @@ import { data } from "../../JsonData";
 import ProductCard from "../ProductCard/ProductCard";
 
 const TodayHotDeal = () => {
-  const [productData, setProductData] = useState(data);
+  const [productData] = useState(data);
   return (
     <div  className=" container">
       <div >

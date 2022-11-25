@@ -5,7 +5,7 @@ import ProductCard from '../ProductCard/ProductCard'
 
 const Banner = () => {
 
-    const [productData,setProductData]=useState(data)
+    const [productData]=useState(data)
 
   return (
     <div className='my-5 container grid grid-cols-12  justify-between gap-8'>
