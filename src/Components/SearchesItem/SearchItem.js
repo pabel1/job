@@ -10,9 +10,9 @@ const SearchItem = () => {
         Your searched items
         </h1>
       </div>
-      <div className="my-3 grid grid-cols-5 gap-4">
-        {productData?.map((item, i) => (
-          <div className=" px-2 " key={i} >
+      <div className="my-4 grid grid-cols-5 gap-4">
+        {productData?.slice(11, 16).map((item, i) => (
+          <div className=" px-2" key={i} >
             <ProductCard data={item} />
           </div>
         ))}

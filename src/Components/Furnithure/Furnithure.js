@@ -10,7 +10,7 @@ const Furniture = () => {
         Deals on furniture
         </h1>
       </div>
-      <div className="my-3 grid grid-cols-5 gap-4">
+      <div className="my-3 grid grid-cols-2 md:grid-cols-5 gap-4">
         {productData?.map((item, i) => (
           <div className=" px-2 " key={i} >
             <ProductCard data={item} />
