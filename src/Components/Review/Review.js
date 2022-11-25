@@ -8,7 +8,7 @@ const Review = () => {
       <h1 className=" text-left text-lg font-semibold py-3 border-b-2 border-primary border-dotted">
         Review your purchase
       </h1>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-3 overflow-x-auto">
         <div className=" my-4 flex items-center px-3 py-2  border-2 rounded-xl  ">
           <img src={productImg1} alt="" />
           <div className=" space-y-2">

@@ -3,7 +3,7 @@ import React from 'react'
 const ButtomNav = () => {
   return (
     <div className=' py-2'>
-        <ul className=' flex items-center gap-2 whitespace-pre text-sm text-textSecondary'>
+        <ul className=' grid grid-cols-2 md:flex  md:flex-row items-center gap-2 whitespace-pre text-sm text-textSecondary'>
             <li> <a href="/">Fresh</a></li>
             <li> <a href="/">Today's Deals</a></li>
             <li> <a href="/">Mobiles</a></li>
